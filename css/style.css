@@ -1,0 +1,23 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.display-block{
+    display: block;
+    margin: 10px auto; 
+}
+
+.width{
+    width: 600px;
+}
+
+.img-2{
+    width: 600px;
+}
+
+.display-none{
+    display: none;
+}

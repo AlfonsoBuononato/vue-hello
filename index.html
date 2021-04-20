@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SCRIPT VUEJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <title>Benvenuto VueJS</title>
+</head>
+<body>
+    <div v-bind:class="classCenter" id="container">
+        <h1>{{title}}</h1>
+        <div>
+            <img v-bind:class="classWidth" :src="image" alt="">
+            <button v-bind:class="classButton" v-on:click="block">Dimentichiamo jquery</button>
+            <img v-bind:class="classImg2" :src="image2" alt="">
+        </div>
+    </div>
+    <!-- SCRIPT -->
+    <script src="js/main.js"></script>
+</body>
+</html>
